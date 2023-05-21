@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+    <div>
+    <h1 id="Formulário">Formulário</h1>
+    </div>
+    <fieldset>
+        <legend> Informações Pessoais</legend>
+     
+
+     <label>Gênero:</label>
+     <br>
+     
+     <label for="Masculino">
+        <input type="radio" name="gênero" id="Gênero" value="Masculino">Masculino
+     </label>
+     
+     <label for="Feminino">
+        <input type="radio" name="gênero" id="Gênero" value="Feminino">Feminino
+    </label>
+    <label for="Outro">
+        <input type="radio" name="gênero" id="Gênero" value="Outro">Outro
+    </label>
+    <br>
+    <br>
+    <label for="Nome"><strong>Nome:</strong></label> 
+    <input type="text" name="nome" id="Nome" >
+    <br>
+    <label for="Sobrenome"><strong>Sobrenome:</strong></label>
+    <input type="text" name="sobrenome" id="Sobrenome">
+    <br>
+    <br>
+    <label for="Tamanho"><strong>Tamanho:</strong></label>
+    <select id="Tamanho">
+       <option selected disabled value="">Selecione uma opção</option>
+       <option value="Pequeno">Pequeno</option>
+       <option value="Médio">Médio</option>
+       <option value="Grande">Grande</option>
+    </select>
+    <br>
+    <br> 
+    <input type="submit" id="Enviar" name="enviar" value="Enviar">
+    
+    </fieldset>
+    </form>
+</body>
+</html>
